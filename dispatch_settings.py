@@ -1,8 +1,10 @@
 #Configurable Settings
 
-LOCALE_STATE = 'NY'
+LOCALE_STATE = 
 LOCALE_ZIP
-LOCALE_NOAA_STATION_CALL_SIGN
+LOCALE_NOAA_STATION_CALL_SIGN 
+
+DELINIATER = ':'
 INCIDENT_FIELDS = (
                    'Unit', \
                    'Venue', \
@@ -17,7 +19,7 @@ INCIDENT_FIELDS = (
                    )
 
 LOCATION_FIELDS = ['XSts', 'Loc', 'Venue'] 
-DELINIATER = ':'
+
 
 
 
